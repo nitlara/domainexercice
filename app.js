@@ -44,7 +44,7 @@ for (let i=0; i < pronoun.length;i++)
         {for (let j = 0; j < noun.length; j++)
             {for (let l = 0; l < domain.length; l++){
                 if ((noun[j].indexOf(domain[l]) !== -1) == true ) 
-                    { var nounC = noun[j].replace(domain[l], ""); // añadir es variable 
+                    { var nounC = noun[j].replace(domain[l], ""); 
                     phrase = 'www.'+pronoun[i]+adj[h]+nounC+'.'+domain[l]}
                     else
                     { phrase = 'www.'+pronoun[i]+adj[h]+noun[j]+'.'+domain[l]
